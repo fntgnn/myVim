@@ -1,5 +1,5 @@
 " BASIC SETUP
-colorscheme desert
+colorscheme codedark
 "gvim
 if has('gui_running')
   set guifont=Lucida_Console:h14	"set font
