@@ -233,3 +233,15 @@ let g:airline#extensions#tabline#enabled = 1
 "let g:airline_powerline_fonts = 0
 "let g:airline_left_sep = ''
 "let g:airline_right_sep = ''
+"
+"
+"""""""""Syntastic
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+"""""""""""Filetype
+au BufNewFile,BufRead *.ejs set filetype=html
+au BufNewFile,BufRead *.hbs set filetype=html
+au BufNewFile,BufRead *.handlebars set filetype=html
