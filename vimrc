@@ -245,3 +245,10 @@ let g:syntastic_mode_map = { 'mode': 'passive'}
 au BufNewFile,BufRead *.ejs set filetype=html
 au BufNewFile,BufRead *.hbs set filetype=html
 au BufNewFile,BufRead *.handlebars set filetype=html
+
+
+" Comando per chiudere tutti i buffer eccetto l'ultimo
+command! BufOnly execute '%bdelete|edit #|normal `"'
+
+" Use tab with emmet
+imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
