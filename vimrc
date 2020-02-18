@@ -1,4 +1,6 @@
 " BASIC SETUP
+"set t_Co=256
+"set t_ut=
 colorscheme codedark
 "gvim
 if has('gui_running')
