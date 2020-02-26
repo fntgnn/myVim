@@ -253,4 +253,6 @@ au BufNewFile,BufRead *.handlebars set filetype=html
 command! BufOnly execute '%bdelete|edit #|normal `"'
 
 " Use tab with emmet
-imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
+let g:user_emmet_leader_key=','
+
+"imap <expr> <tab><tab> emmet#expandAbbrIntelligent("\<tab>")
